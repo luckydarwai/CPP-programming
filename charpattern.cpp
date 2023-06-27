@@ -4,16 +4,21 @@ int main()
 {
     int n;
     cin >> n;
-    for (int i = 1; i <= n; i++)
+    int i=1;
+    while (i<=n)
     {
-        int val=i;
-        for (int j = 1; j <= i; j++)
+        int j=1;
+        while (j<=n)
         {
-            cout << val << " ";
-            val+=1;
+        char ch='A'+i+j-2;
+           cout<<ch<<" ";
+           j+=1;
         }
-        cout << endl;
+        cout<<endl;
+        i++;
+
     }
+    
 
     // return 0;
 }

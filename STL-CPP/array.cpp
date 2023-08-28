@@ -14,6 +14,8 @@ int main()
    cout<<arr.at(2)<<endl;
 
    cout<<"check array empty or not : "<<arr.empty()<<endl;
+
+   cout<<arr.front()<<endl<<arr.back()<<endl;
    
 
 }
